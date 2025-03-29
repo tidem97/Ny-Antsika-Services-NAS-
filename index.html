@@ -3,29 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ny Antsika Services</title>
+    <title>Ny Anysika Services (NAS)</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenue sur Ny Antsika Services</h1>
+        <h1>Ny Anysika Services</h1>
         <nav>
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Nos Services</a></li>
-                <li><a href="#">À Propos</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#services">Nos Services</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     
-    <section>
-        <h2>Nos Services</h2>
-        <p>Nous offrons une large gamme de services en ligne pour répondre à vos besoins.</p>
+    <section id="hero">
+        <h2>Votre solution multiservices en ligne</h2>
+        <p>Des services professionnels à portée de main.</p>
+        <button onclick="toggleServices()">Voir Nos Services</button>
     </section>
-
+    
+    <section id="services" class="hidden">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Création de sites web</li>
+            <li>Design graphique</li>
+            <li>Développement d'applications</li>
+            <li>Assistance et dépannage informatique</li>
+            <li>Marketing digital</li>
+            <li>Formation en ligne</li>
+        </ul>
+    </section>
+    
+    <section id="about">
+        <h2>À Propos de NAS</h2>
+        <p>Ny Anysika Services est une entreprise multiservices en ligne qui offre des solutions numériques adaptées à vos besoins.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Email : <a href="mailto:nyantsikanas@gmail.com">nyantsikanas@gmail.com</a></p>
+        <p>Téléphone : <a href="tel:+261322514985">+261 32 25 14 985</a></p>
+    </section>
+    
     <footer>
-        <p>&copy; 2025 Ny Antsika Services. Tous droits réservés.</p>
+        <p>&copy; 2025 Ny Anysika Services. Tous droits réservés.</p>
     </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
