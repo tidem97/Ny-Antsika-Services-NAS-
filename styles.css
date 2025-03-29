@@ -40,3 +40,7 @@ footer {
 header {
     background-color: magenta;
 }
+
+h1 {
+    color: white !important;
+}
