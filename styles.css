@@ -35,3 +35,10 @@ footer {
     color: white;
     padding: 10px;
 }
+
+
+header {
+    color: magenta;
+    background-color: magenta;
+    border-color: magenta;
+}
